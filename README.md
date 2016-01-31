@@ -43,4 +43,5 @@ There are 2 `version`s that affect the behaviour of `Main`. `ShowExitLoc` causes
 
 ## Caveats
 Because we are using an exception, `exit` will trigger any `scope(failure)` clauses on the way up the stack.
-`exit` will be blocked by any `catch(Exception)` statement on the way up the stack. If this is a problem for you, I suggest forking this project and changing `ExitException` to inherit from `Throwable` instead of `Exception`.
+
+`exit` will be blocked by any `catch(Exception)` statement on the way up the stack.If this is a problem for you, I suggest forking this project and changing `ExitException` to inherit from `Throwable` instead of `Exception`.
