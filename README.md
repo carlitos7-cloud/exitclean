@@ -16,7 +16,7 @@ void foo()
 
 You can then catch the `ExitException` yourself in your `main`, extract the exit code (available as a member `code` of the exception and return it.
 
-In order to save effort, `exitclean` also defines a mixin template to generate a main for you. Use like this:
+In order to save effort, `exitclean` also defines a mixin template to generate a main for you that deals with the `try/catch` and `return` automagically. Use like this:
 
 ```D
 void myMain()
