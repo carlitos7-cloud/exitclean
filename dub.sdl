@@ -1,0 +1,5 @@
+name "exitclean"
+description "A more respectful core.stdc.stdlib.exit"
+targetType "sourceLibrary"
+authors "John Colvin"
+license "BSL-1.0"
