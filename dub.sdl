@@ -1,4 +1,4 @@
-name "exitclean"
+name "exitcleaning"
 description "A more respectful core.stdc.stdlib.exit"
 targetType "sourceLibrary"
 authors "John Colvin"
